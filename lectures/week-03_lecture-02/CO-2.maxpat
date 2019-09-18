@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1268.0, 1006.0 ],
+		"rect" : [ 1017.0, 83.0, 916.0, 949.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 103.0, 1268.0, 980.0 ],
+						"rect" : [ 1017.0, 109.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -97,6 +97,17 @@
 						"subpatcher_template" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 476.0, 720.588265359401703, 47.0, 22.0 ],
+									"text" : "midiout"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-66",
 									"maxclass" : "newobj",
@@ -127,7 +138,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 286.235265672206879, 720.588265359401703, 50.0, 22.0 ],
-									"text" : "62"
+									"text" : "67"
 								}
 
 							}
@@ -199,7 +210,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 182.294099926948547, 385.000001668930054, 32.0, 22.0 ],
-									"text" : "127"
+									"text" : "110"
 								}
 
 							}
@@ -223,7 +234,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 286.235265672206879, 682.470588088035583, 50.0, 22.0 ],
-									"text" : "300."
+									"text" : "400."
 								}
 
 							}
@@ -283,7 +294,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 707.0, 502.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "110"
 								}
 
 							}
@@ -888,8 +899,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"order" : 0,
+									"source" : [ "obj-62", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-64", 1 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-62", 0 ]
 								}
 
@@ -897,7 +916,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-65", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-62", 0 ]
 								}
 
@@ -973,7 +992,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1268.0, 980.0 ],
+						"rect" : [ 0.0, 26.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1303,7 +1322,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1268.0, 980.0 ],
+						"rect" : [ 0.0, 26.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1652,7 +1671,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1268.0, 980.0 ],
+						"rect" : [ 0.0, 26.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2080,7 +2099,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1268.0, 980.0 ],
+						"rect" : [ 0.0, 26.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2604,7 +2623,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1268.0, 980.0 ],
+						"rect" : [ 0.0, 26.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2679,10 +2698,10 @@
 									"patching_rect" : [ 813.0, 481.5, 46.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0,
-											"parameter_longname" : "live.numbox",
-											"parameter_shortname" : "live.numbox"
+											"parameter_longname" : "live.numbox"
 										}
 
 									}
@@ -2702,10 +2721,10 @@
 									"patching_rect" : [ 813.0, 310.0, 74.0, 149.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "live.slider",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0,
-											"parameter_longname" : "live.slider",
-											"parameter_shortname" : "live.slider"
+											"parameter_longname" : "live.slider"
 										}
 
 									}
@@ -2738,10 +2757,10 @@
 									"patching_rect" : [ 217.0, 282.0, 41.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "live.dial",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0,
-											"parameter_longname" : "live.dial",
-											"parameter_shortname" : "live.dial"
+											"parameter_longname" : "live.dial"
 										}
 
 									}
@@ -3008,7 +3027,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1268.0, 980.0 ],
+						"rect" : [ 0.0, 26.0, 916.0, 923.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
