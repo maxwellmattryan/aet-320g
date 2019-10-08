@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1668.0, 1006.0 ],
+		"rect" : [ 40.0, 83.0, 1669.0, 1007.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -340,7 +340,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 21.5, 448.0, 45.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "cue $1"
 				}
 
@@ -610,8 +609,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1::obj-11" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-18::obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
