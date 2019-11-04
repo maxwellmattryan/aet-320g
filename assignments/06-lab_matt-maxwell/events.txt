@@ -1,3 +1,15 @@
 Player1 Level 127, On bang, Buffer Sounds.1;
+Player2 Level 127, On bang, Buffer Sounds.2;
+Player3 Level 127, On bang, Buffer Sounds.3;
 0;
-
+Player1 Start;
+1;
+Player1 Stop;
+Player2 Start;
+2;
+Player3 Start;
+Player1 Buffer Sounds.4;
+3;
+Player3 Stop;
+Player1 Start;
+4;
